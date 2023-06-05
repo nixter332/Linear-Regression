@@ -1,17 +1,8 @@
-# Car Price Predictor
-
-Project link: https://car-price-price.herokuapp.com
-Demo Video: https://youtu.be/HEaFU68WAPM
-
-<img src="https://github.com/rajtilakls2510/car_price_predictor/blob/master/demo.png">
-
-
+# Car Price Predictor 
 
 # Aim
 
 This project aims to predict the Price of an used Car by taking it's Company name, it's Model name, Year of Purchase, and other parameters.
-
-<img src="https://github.com/rajtilakls2510/car_price_predictor/blob/master/predict.png">
 
 ## How to use?
 
@@ -23,28 +14,22 @@ Some packages are:
  - pandas 
  - scikit-learn
 
-3. Run the "application.py" file
-And you are good to go. 
+3. Run the "application.py" file and you are good to go. 
 
 # Description
 
-## What this project does?
-
 1. This project takes the parameters of an used car like: Company name, Model name, Year of Purchase, Fuel Type and Number of Kilometers it has been driven.
-2. It then predicts the possible price of the car. For example, the image below shows the predicted price of our Hyundai Grand i10. 
+2. It then predicts the possible price of the car. For example, the image below shows the predicted price of our Audi A3 Cabriolet. 
 
-<img src="https://github.com/rajtilakls2510/car_price_predictor/blob/master/predict.png">
+![demo](https://github.com/nixter332/Linear-Regression/assets/97787214/88a8440e-393b-473f-aaa8-7e9c253d76fb)
 
-## How this project does?
+## Steps
 
-1. First of all the data was scraped from Quikr.com (https://quikr.com) 
-Link for data: https://github.com/rajtilakls2510/car_price_predictor/blob/master/quikr_car.csv
+1. First of all the dataset was got from Quikr.
 
-2. The data was cleaned (it was super unclean :( ) and analysed.
+2. The data was cleaned to remove unwanted data and make it fit for analysis.
 
-3. Then a Linear Regression model was built on top of it which had 0.92 R2_score.
+3. Then a Linear Regression model was built on top of it which had 0.92 R2_score. The link for the Jupyter Notebook has been included in the repo.
 
-Link for notebook: https://github.com/rajtilakls2510/car_price_predictor/blob/master/Quikr%20Analysis.ipynb
-
-4. This project was given the form of an website built on Flask where we used the Linear Regression model to perform predictions.
+4. The project was then deoployed on the website using Flask.
 
